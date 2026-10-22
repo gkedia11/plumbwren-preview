@@ -15,7 +15,7 @@ f.addEventListener('submit',function(e){e.preventDefault();err.hidden=true;
  if(!f.ref.value.trim())m.push('Please enter your assessment reference.');
  var ts=['t1','t2','t3'].map(function(n){return f[n].value}).filter(Boolean);
  if(ts.length<3)m.push('Please pick 3 times so we can find one that works.');
- else if(ts.some(function(v){var d=new Date(v);return isNaN(d)||d<start||d>end}))m.push('Please pick times within the next 14 days.');
+ else if(ts.some(function(v){var d=new Date(v);return isNaN(d)||d<start||d>end}))m.push('Please pick times from the dates shown.');
  if(m.length){err.textContent=m.join(' ');err.hidden=false;return}
  var code=f.code.value.trim(),c=document.getElementById('credit');
  c.textContent=code?('Credit applied: $497 off. Your price: '+fmt(tier[1]-497)+' for '+tier[0]+'.'):('Your package: '+tier[0]+', '+fmt(tier[1])+'.');

@@ -11,12 +11,11 @@
 <fieldset class="q"><legend>Have you completed your assessment?</legend>
 <label class="opt"><input type="radio" name="done" value="yes"> <span>Yes</span></label>
 <label class="opt"><input type="radio" name="done" value="no"> <span>No</span></label></fieldset>
-<div id="notyet" hidden><p>Readiness Implementation is for organizations that have completed the Full Readiness Assessment.</p><p><a class="btn" href="assessment.html">Start with the assessment</a></p></div>
+<div id="notyet" hidden><p>Implementation starts from your assessment report.</p><p><a class="btn" href="assessment.html">Start with the assessment</a></p></div>
 <div id="step" hidden>
-<label class="fld">Assessment reference<input name="ref" required autocomplete="off"></label>
-<label class="fld">Credit code (optional)<input name="code" autocomplete="off"></label>
-<p class="small">Your credit code takes $497 off. It works once, for 30 days after your report date.</p>
-<h2>When can you meet?</h2><p>Pick 3 times in the next 14 days. Each kickoff takes about 30 minutes.</p>
+<label class="fld">Assessment reference (from your report email)<input name="ref" required autocomplete="off"></label>
+<label class="fld">Credit code<input name="code" autocomplete="off"></label>
+<h2>When can you meet?</h2><p>Pick 3 times from the dates shown. Your kickoff call takes about 45 minutes. We use it to confirm your fix list and milestone dates.</p>
 <div class="grid">
 <label class="fld">Option 1<input type="datetime-local" name="t1" step="900"></label>
 <label class="fld">Option 2<input type="datetime-local" name="t2" step="900"></label>
@@ -26,7 +25,7 @@
 <p>We confirm one of your times within 2 business days.</p>
 <p id="ierr" class="err" role="alert" hidden></p>
 <button class="btn" type="submit">Continue to payment</button></div></form>
-<div id="done" hidden tabindex="-1"><h1>You're in.</h1><p id="credit"></p><p>Our team will contact you to confirm your start time. We'll use one of the 3 times you picked.</p>
+<div id="done" hidden tabindex="-1"><h1>You're in.</h1><p id="credit"></p><p>Our team will contact you to confirm. We confirm one of your 3 times within 2 business days.</p>
 <h2>What to have ready</h2><p>Your assessment report and access to your shared files.</p></div>
 </div></section></main>
 <footer class="foot"><div class="wrap"><p>Plumbwren · <a href="contact.html">[CONTACT EMAIL]</a></p><p>We don't write grant applications or guarantee funding.</p><p><a href="credits.html">Photo credits</a></p></div></footer><script src="config.js"></script><script src="impl.js"></script>
