@@ -1,1 +1,2 @@
 window.PW_ENDPOINT="";
+window.PW_EARLIEST_START="2027-01-04";

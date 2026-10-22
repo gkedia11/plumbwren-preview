@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Readiness Implementation | Plumbwren</title><meta name="description" content="Choose your package, share 3 times, and book Readiness Implementation.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css"></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html"><img src="logo-full.svg" alt="plumbwren" width="174" height="38"></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="check.html">Free check</a><a href="assessment.html">Assessment</a><a href="implementation.html">Implementation</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></header>
+<main id="main">
+<section class="hero"><div class="wrap narrow"><h1 id="ih">Readiness Implementation</h1><p class="price big" id="tierline">Starter, $1,500</p>
+<form id="impl" novalidate>
+<fieldset class="q"><legend>Have you completed your assessment?</legend>
+<label class="opt"><input type="radio" name="done" value="yes"> <span>Yes</span></label>
+<label class="opt"><input type="radio" name="done" value="no"> <span>No</span></label></fieldset>
+<div id="notyet" hidden><p>Readiness Implementation is for organizations that have completed the Full Readiness Assessment.</p><p><a class="btn" href="assessment.html">Start with the assessment</a></p></div>
+<div id="step" hidden>
+<label class="fld">Assessment reference<input name="ref" required autocomplete="off"></label>
+<label class="fld">Credit code (optional)<input name="code" autocomplete="off"></label>
+<p class="small">Your credit code takes $497 off. It works once, for 30 days after your report date.</p>
+<h2>When can you meet?</h2><p>Pick 3 times in the next 14 days. Each kickoff takes about 30 minutes.</p>
+<div class="grid">
+<label class="fld">Option 1<input type="datetime-local" name="t1" step="900"></label>
+<label class="fld">Option 2<input type="datetime-local" name="t2" step="900"></label>
+<label class="fld">Option 3<input type="datetime-local" name="t3" step="900"></label>
+<label class="fld">Your time zone<select name="tz"><option>Eastern</option><option>Central</option><option>Mountain</option><option>Arizona</option><option>Pacific</option><option>Alaska</option><option>Hawaii</option></select></label></div>
+<p class="small">Pick 3 different days if you can. We confirm one by email.</p>
+<p>We confirm one of your times within 2 business days.</p>
+<p id="ierr" class="err" role="alert" hidden></p>
+<button class="btn" type="submit">Continue to payment</button></div></form>
+<div id="done" hidden tabindex="-1"><h1>You're in.</h1><p id="credit"></p><p>Our team will contact you to confirm your start time. We'll use one of the 3 times you picked.</p>
+<h2>What to have ready</h2><p>Your assessment report and access to your shared files.</p></div>
+</div></section></main>
+<footer class="foot"><div class="wrap"><p>Plumbwren · <a href="contact.html">[CONTACT EMAIL]</a></p><p>We don't write grant applications or guarantee funding.</p></div></footer><script src="config.js"></script><script src="impl.js"></script>
+</body></html>
